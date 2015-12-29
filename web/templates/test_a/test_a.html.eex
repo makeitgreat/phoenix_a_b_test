@@ -1,0 +1,41 @@
+
+<div class="checkbox">
+  <label>
+    <input type="checkbox" data-toggle="toggle">
+    Option one is enabled
+  </label>
+</div>
+<div class="checkbox disabled">
+  <label>
+    <input type="checkbox" disabled data-toggle="toggle">
+    Option two is disabled
+  </label>
+</div>
+
+<label class="checkbox-inline">
+  <input type="checkbox" checked data-toggle="toggle"> First
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" data-toggle="toggle"> Second
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" data-toggle="toggle"> Third
+</label>
+
+<input type="checkbox" data-toggle="toggle" data-on="Enabled" data-off="Disabled">
+<input type="checkbox" id="toggle-two">
+<script>
+  $(function() {
+    $('#toggle-two').bootstrapToggle({
+      on: 'Enabled',
+      off: 'Disabled'
+    });
+  })
+</script>
+
+<input type="checkbox" checked data-toggle="toggle" data-onstyle="primary">
+<input type="checkbox" checked data-toggle="toggle" data-onstyle="success">
+<input type="checkbox" checked data-toggle="toggle" data-onstyle="info">
+<input type="checkbox" checked data-toggle="toggle" data-onstyle="warning">
+<input type="checkbox" checked data-toggle="toggle" data-onstyle="danger">
+<input type="checkbox" checked data-toggle="toggle" data-onstyle="default">
