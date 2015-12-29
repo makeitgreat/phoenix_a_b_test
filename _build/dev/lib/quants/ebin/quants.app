@@ -1,0 +1,13 @@
+{application,quants,
+             [{registered,[]},
+              {description,"quants"},
+              {mod,{'Elixir.Quants',[]}},
+              {applications,[kernel,stdlib,elixir,phoenix,phoenix_html,cowboy,
+                             logger,phoenix_ecto,postgrex]},
+              {vsn,"0.0.1"},
+              {modules,['Elixir.Quants','Elixir.Quants.Endpoint',
+                        'Elixir.Quants.ErrorView','Elixir.Quants.LayoutView',
+                        'Elixir.Quants.PageController',
+                        'Elixir.Quants.PageView','Elixir.Quants.Repo',
+                        'Elixir.Quants.Router','Elixir.Quants.Router.Helpers',
+                        'Elixir.Quants.UserSocket','Elixir.Quants.Web']}]}.

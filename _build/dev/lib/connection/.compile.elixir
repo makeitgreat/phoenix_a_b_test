@@ -1,0 +1,9 @@
+v1.
+{<<"/Users/user/quants/_build/dev/lib/connection/ebin/Elixir.Connection.beam">>,
+ 'Elixir.Connection',<<"lib/connection.ex">>,
+ [erlang,'Elixir.Protocol','Elixir.Kernel.Typespec','Elixir.Kernel.Def',
+  'Elixir.Kernel','Elixir.Keyword','Elixir.List','Elixir.GenServer',
+  'Elixir.ArgumentError','Elixir.Behaviour','Elixir.Module'],
+ ['Elixir.Code',error_logger,code,gen_server,proc_lib,'Elixir.System',gen,
+  global,'Elixir.Process'],
+ [],nil}.
